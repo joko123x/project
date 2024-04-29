@@ -1,0 +1,676 @@
+
+.banner_container{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 200px;
+    width: 400px;
+}
+.banner_card{
+    padding: 1rem;
+    background-position:  center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.banner_card:nth-child(1){
+    
+    background-image:url("https://133235642.cdn6.editmysite.com/uploads/1/3/3/2/133235642/s359720169423283389_p71_i1_w1500.jpeg?width=1280&dpr=1") ;
+}
+
+.banner_card:nth-child(2){
+    
+    background-image:url("https://133235642.cdn6.editmysite.com/uploads/1/3/3/2/133235642/s359720169423283389_p11_i3_w6720.jpeg?width=1280&dpr=1") ;
+}
+
+.banner_card:nth-child(3){
+    
+    background-image:url("https://133235642.cdn6.editmysite.com/uploads/1/3/3/2/133235642/s359720169423283389_p57_i1_w1912.jpeg?width=1280&dpr=1") ;
+    
+}
+.banner_card p{
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    color: white;
+
+        font-family: "Londrina Solid", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      
+}
+
+
+.bannner_card h4{
+    font-size: 2rem;
+  
+     
+ font-family: "Londrina Solid", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      
+}
+
+.banne{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(118, 117, 117, 0.75), rgba(0,0,0,0.75)),url(https://i.pinimg.com/736x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg);
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content h1{
+    font-size: 60px;
+    margin: 40px;
+    font-weight: 700;
+}
+
+.content p {
+    margin: 20px auto;
+     font-weight: 600;
+     line-height: 25px;
+}
+
+
+button {
+    width: 200px;
+    padding: 15px 0;    
+    text-align: center;
+    margin: 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(165, 1, 165) !important;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background-color: rgb(166, 36, 166); 
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1; /* Adjusted z-index to bring it above the button */
+    transition: width 0.5s; /* Changed transition property */
+}
+
+button:hover span { 
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+
+
+
+img {
+    width: 350px; /* Set the width to 100% to make the image fit inside the container */
+    height: 300px; /* Maintain aspect ratio */
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
+
+
+
+
+
+
+
+
+.cont{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 400px;
+    bottom: -10px;
+    background-color: rgb(135, 128, 128);
+}
+
+.cont img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 40px;
+}
+
+.cont p {
+    color: white;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+     left: 20px;
+     top: 30px;
+}
+
+
+
+.cont .koka{
+    font-weight: 600;
+    font-size: 15px;
+     position: relative;
+     left: 50px;
+     top: 15px ;
+}
+
+
+.cont .papa{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 10px;
+    top: 30px;
+
+}
+
+.cont .nigi{
+    color: white;
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+     left:50px;
+     top: 5px;
+}
+
+.cont .nita {
+    position: relative;
+    width: 50px;
+    height: 35px;
+    left: 0px;
+    top: 20px;
+}
+
+.cont .shit{
+    color: white;
+    position: relative;
+    font-size: 10px;
+    font-weight: 600;
+     left:50px;
+    top: -6px;
+}
+
+
+
+h2{
+    position: absolute;
+    font-weight: 100;
+    font-size: 50px;
+
+    left:700px ;
+    top: 900px;
+
+}
+
+
+.soso{
+    font-weight: 00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 700px;
+    position: absolute;
+    top: 1100px;
+}
+
+.kaki{
+    left: 700px;
+    position: absolute;
+    top: 1300px;
+    color: black;
+     
+
+}
+
+
+
+
+span {
+    background-color: rgb(166, 36, 166); 
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1; /* Adjusted z-index to bring it above the button */
+    transition: width 0.5s; /* Changed transition property */
+}
+
+button:hover span { 
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+
+span {
+    background-color: rgb(166, 36, 166); 
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1; /* Adjusted z-index to bring it above the button */
+    transition: width 0.5s; /* Changed transition property */
+}
+
+.kaki:hover span { 
+    width: 100%;
+}
+
+.kaki:hover {
+    border: none;
+}
+
+@media (width > 540px) {
+    .banner_container{
+        grid-template-columns:repeat(2, 1fr) ;
+    }
+    .banner_card:nth-child(1){
+        grid-area: 1/1/2/3;
+    }
+    .reserv_container form{
+        max-width: 600px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .reserv img{
+        display: flex;
+        position: absolute;
+        z-index: -1;
+    }
+    .reserve-bg-1{
+        left: 0;
+        top:0;
+        width: clamp(100px, 25vw, 350px);
+
+    }
+}
+
+/* Adjustments for responsive layout */
+@media (max-width: 768px) {
+    /* Make columns vertical */
+    .content {
+      position: relative; /* Change to relative */
+      top: auto; /* Reset top */
+      transform: none; /* Reset transform */
+    }
+    .cont {
+      left: auto; /* Reset left */
+      bottom: auto; /* Reset bottom */
+      margin-top: 50px; /* Add margin to separate from content */
+    }
+    /* Adjust position of h2, .soso, .kaki */
+    h2, .soso, .kaki {
+      position: relative; /* Change to relative */
+      left: 0; /* Reset left */
+      top: auto; /* Reset top */
+      margin-top: 50px; /* Add margin to separate from content */
+    }
+
+    .kaki{
+        position: relative;
+        left: 200px;
+    }
+    .banner_card{
+        padding: 1.5rem;
+    }
+    .banner_card:nth-child(1){
+        grid-area: 1/1/3/2;
+    }
+  }
+  
+
+.fa-phone{
+    position: relative;
+    left: 16px;
+    top: 38px;
+}
+
+
+.fa-envelope{
+    position: relative;
+    left: 18px;
+    top: 32px;
+}
+
+.fa-location-dot{
+    position: relative;
+    left: 18px;
+    top: 19px;
+}
+
+
+.containeri{
+    background-color: #fafafa;
+    margin: 200px;
+    box-shadow: rgba(0, 0, 0, .1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-left: 750px;
+    margin-top: -200px !important;
+    
+
+
+}
+
+.container-time{
+    background-color:rgba(0, 0, 0, .95) ;
+    padding: 50px;
+    outline: 3px dashed #998100;
+    outline-offset: -30px;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.heading-day{
+    color: #998100;
+    font-size: 30px;
+
+}
+
+h3{
+    color: #998100;
+    font-size: 30px;
+
+}
+
+.heading-phone{
+    font-size: 20px;
+}
+
+.container-form{
+    padding: 20px 0;
+    margin:  0 auto;
+    color: black;
+
+}
+
+form{
+    display: grid;
+    grid-row-gap:20px ;
+}
+
+.form-field{
+    display: flex;
+    justify-content: space-between;
+}
+
+input,select{
+    pad: 10px 15;
+}
+
+form p{
+    font-weight: 600;
+
+}
+
+
+.btn{
+    background-color: rgba(118, 117, 117, 0.75);
+    color: #fafafa;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, .95);
+}
+
+
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  
+}
+
+body {
+  background: #F2F3EB;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus,[type='time']:focus   textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+
+.wika{
+    color: white;
+}

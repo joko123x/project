@@ -1,0 +1,187 @@
+.pop{
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #324968;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card_image {
+  max-height: 250px;
+  margin-top: -24px;
+  img {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  &:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: -100px;
+    background: linear-gradient(0deg, #091014 10%, rgba(0, 0, 0, 0) 100%);
+  }
+}
+
+.card {
+  background-color: #091014;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  z-index: 1;
+  display: block;
+}
+
+.card_title {
+  font-family: 'Lobster', cursive;
+  font-size: 72px;
+  line-height: 72px;
+  margin-top: -50px;
+  margin-bottom: 24px;
+  text-shadow: black 1px 0 15px;
+  color: white;
+}
+
+.card_text {
+  color: #DDDACB;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  p {
+    max-width: 700px;
+  }
+}
+
+.card_price {
+  position: relative;
+  top: 10px;
+  right: 16px;
+  text-align: right;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  height: 24px;
+  font-size: 36px;
+  font-weight: 400;
+  text-shadow: black 3px 0px 6px;
+}
+
+#item_fig .card:after {
+  content: "Seasonal";
+  font-family: "Raleway", sans-serif;
+  color: rgba(234, 225, 175, 0.8);
+  font-weight: 600;
+ font-style: italic;
+  text-transform: uppercase;
+  display: block;
+  width: 10ch;
+  height: 1.5em;
+  padding: 0.2em 0.4em;
+  position: relative;
+  bottom: calc(100% - 2.5em);
+  left: 1em;
+}
+
+.btn{
+    background: none;
+    border: 2px solid #000;
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    min-width: auto;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.24s linear;
+    position: relative;
+    color: white;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+
+
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:0 ;
+    width: 100%;
+    height: 100%;
+    background: rgb(47, 61, 255);
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0 ;
+    transition-timing-function:  cubic-bezier(0.5,1.6,0.4,0.7);
+}
+
+.btn1::before{
+    transform: scaleX(0);
+}
+
+
+.btn1:hover::before{
+    transform: scaleX(1);
+}
+
+.main{
+    position: relative;
+    top: 300px;
+}
+
+
+@media screen and (max-width: 768px){
+   .Total{
+    position: absolute;
+    left:  -1200px;
+    top: -30px;
+   
+}
+.h1{
+  position: absolute;
+  left: -700px;
+  top: -20px;
+}
+}

@@ -1,0 +1,27 @@
+.active{
+    border-bottom: 2px solid #7c3aed;
+    transform: scale(1.1);
+    transition: border-bottom 0.3 ease, color 0.3s ease, transform  0.3s ease;
+}
+
+.laza{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+button{
+    border-radius: 8px;
+    padding: 8px 12px;
+    border: none;
+    
+    transition-duration: 0.4s;
+    border: 1.5px solid #39255a;
+}
+
+button:hover{
+    background-color:#2b174b; 
+  color: white;
+}
+
+

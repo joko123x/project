@@ -1,0 +1,14 @@
+
+<div class="container">
+    <div class="wrapper">
+      <div class="banner-image"><img [src]="Card.image" alt="">   </div>
+      <h1>{{Card.name}}</h1>
+      <p>Lorem ipsum dolor sit amet, <br/>
+        consectetur adipiscing elit.</p>
+     </div>
+     <div class="button-wrapper"> 
+     <button [routerLink]="['/aboutcard', Card.id]" class="btn outline">DETAILS</button>
+     </div>
+       </div> 
+  
+  

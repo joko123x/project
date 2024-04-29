@@ -1,0 +1,39 @@
+
+<div class="Total">
+<div class="total" style="position: absolute;  left: 1500px; top: 300px;  font-size: 30px;      font-weight: 600; font-family: 'Times New Roman', Times, serif;">
+    <h1  >Total: {{ cartService.getTotal() }}</h1>
+  </div> 
+</div>  
+
+
+
+<div class="h1">
+<h1 class="carttitle"   style="position: absolute;  left: 1000px;  top: 150px;        font-size: 40px; font-weight: 700px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"          >Cart<i class="fa fa-shopping-cart"></i></h1>
+
+</div>
+
+
+
+
+  <div class="main" >
+    <ul class="cards" *ngFor="let item of cartService.getItems()">
+      <li class="cards_item" id="item_salad">
+        <div class="card">
+          <div class="card_price">Price: {{ item.price }}$</div>
+          <div class="card_image"><img [src]="item.image" alt="mixed vegetable salad in a mason jar. "></div>
+          <div class="card_content">
+            <h2 class="card_title">{{ item.name }}</h2>
+            <div class="card_text">
+          <p>Quantity: {{item.quantity}}</p>
+        <button class="btn btn1"           (click)="deleteFromCart(item)">Delete</button>
+        <button class="btn btn1" (click)="cartService.incrementQuantity(item.id)">+</button>
+        <button class="btn btn1" (click)="cartService.decrementQuantity(item.id)">-</button>
+            </div>
+        
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+ 
+

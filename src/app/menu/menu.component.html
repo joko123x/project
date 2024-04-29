@@ -1,0 +1,35 @@
+
+<section class="card-container">
+    <app-card *ngFor=" let Card  of filteredcardList" [Card]="Card" ></app-card>
+</section>
+  
+<div class="box">
+    <form name="search">
+        <input type="text" #filter (keyup)="filterResults(filter.value)"   class="input" name="txt" onmouseout="this.value = ''; this.blur();">
+    </form>
+    <i class="fas fa-search"></i>
+
+</div>
+
+
+<div class="button">
+    <button class="btn"  (click)="oncategorychange ('all')">All</button>
+    <button class="btn"  (click)="oncategorychange ('chicken')">Chicken</button>
+    <button class="btn"  (click)="oncategorychange ('vegan')">Vegan</button>
+    <button class="btn"  (click)="oncategorychange ('meat')">Meat</button>
+    <button class="btn"  (click)="oncategorychange ('dessert')">Dessert</button>
+  </div>
+
+
+
+
+  <!-- <input type="range" class="range" #rangeV  (change)="rangeSpiciness(rangeV.value)"
+  step="1" min="0" max="10" value="0"> -->
+
+<div class="main">
+<div class="boxi">
+  <label for="customRange2" class="form-label"> Spiciness range </label>
+<input type="range" class="form-range"  #rangeV  (change)="rangeSpiciness(rangeV.value)" step="1" min="0" max="10"  value="0"        id="customRange2" style="max-width: 200px;">
+</div>
+
+</div>
